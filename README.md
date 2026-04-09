@@ -1,6 +1,7 @@
 # 🚀 Mini Drive - Full Stack Cloud Storage
 Mini Drive is a secure, enterprise-grade cloud storage application built with the MERN stack. It allows users to authenticate, upload files to Microsoft Azure, and manage their cloud data through a modern, responsive dashboard.
 
+## Link: https://mini-drive-pi.vercel.app/login
 ## 🛠️ Tech Stack
 Frontend
 React.js (Vite)
@@ -20,7 +21,7 @@ Multer (Middleware for file handling)
 
 CORS (Security)
 
-Cloud Services
+## Cloud Services
 Microsoft Azure Blob Storage: Secure hosting for raw file data.
 
 Google Firebase Auth: Secure user registration and login.
@@ -31,7 +32,7 @@ Render: Backend hosting.
 
 Vercel: Frontend hosting.
 
-✨ Features
+## ✨ Features
 Secure Authentication: User sign-up and login powered by Firebase.
 
 Cloud Uploads: Direct streaming of files to Azure Blob Storage via a Node.js proxy.
@@ -44,7 +45,7 @@ File Management: Users can view file metadata (size, type) and permanently delet
 
 Responsive Design: Fully optimized for desktop and mobile browsers.
 
-📂 Project Structure
+## 📂 Project Structure
 Plaintext
 mini-drive/
 ├── client/             # React Frontend (Vite)
@@ -57,7 +58,8 @@ mini-drive/
 │   ├── controllers/    # Logical "brains" (Upload, Fetch, Delete)
 │   ├── middleware/     # Multer file upload config
 │   └── routes/         # API Endpoints
-🚀 Installation & Local Setup
+
+##🚀 Installation & Local Setup
 1. Clone the repository
 Bash
 git clone https://github.com/YourUsername/mini-drive.git
@@ -85,7 +87,7 @@ Backend: npm run dev (inside /server)
 
 Frontend: npm run dev (inside /client)
 
-🔒 Security
+## 🔒 Security
 This project follows industry best practices:
 
 Private Storage: Azure containers are set to Private.
@@ -95,14 +97,6 @@ Temporary Tokens: Access to files is granted via 1-hour expiring SAS tokens.
 CORS Protection: Backend only accepts requests from the verified production frontend.
 
 Environment Variables: All secret keys are kept out of version control via .gitignore.
-
-📄 License
-Distributed under the MIT License.
-
-Instructions for you:
-Create a new file in your main mini-drive folder (the root).
-
-Name it exactly README.md.
 
 Paste the content above into it.
 
