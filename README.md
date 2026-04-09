@@ -1,7 +1,8 @@
 # 🚀 Mini Drive - Full Stack Cloud Storage
 Mini Drive is a secure, enterprise-grade cloud storage application built with the MERN stack. It allows users to authenticate, upload files to Microsoft Azure, and manage their cloud data through a modern, responsive dashboard.
 
-Link: https://mini-drive-pi.vercel.app/login
+Link: https://mini-drive-pi.vercel.app/
+
 
 ## 🛠️ Tech Stack
 Frontend
