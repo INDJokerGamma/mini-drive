@@ -1,7 +1,7 @@
-🚀 Mini Drive - Full Stack Cloud Storage
+# 🚀 Mini Drive - Full Stack Cloud Storage
 Mini Drive is a secure, enterprise-grade cloud storage application built with the MERN stack. It allows users to authenticate, upload files to Microsoft Azure, and manage their cloud data through a modern, responsive dashboard.
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 Frontend
 React.js (Vite)
 
