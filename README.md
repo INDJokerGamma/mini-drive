@@ -50,16 +50,16 @@ Responsive Design: Fully optimized for desktop and mobile browsers.
 ## 📂 Project Structure
 Plaintext
 mini-drive/
-├── client/             # React Frontend (Vite)
+├── client/               # React Frontend (Vite)
 │   ├── src/
-│   │   ├── components/ # Reusable UI (Navbar, Sidebar, FileCard)
-│   │   ├── pages/      # Dashboard, Login, Signup
-│   │   └── services/   # Firebase configuration
-├── server/             # Node.js Backend
-│   ├── config/         # Azure & Firebase Admin SDK setup
-│   ├── controllers/    # Logical "brains" (Upload, Fetch, Delete)
-│   ├── middleware/     # Multer file upload config
-│   └── routes/         # API Endpoints
+│   │   ├── components/   # Reusable UI (Navbar, Sidebar, FileCard)
+│   │   ├── pages/        # Dashboard, Login, Signup
+│   │   └── services/     # Firebase configuration
+├── server/               # Node.js Backend
+│   ├── config/           # Azure & Firebase Admin SDK setup
+│   ├── controllers/      # Logical "brains" (Upload, Fetch, Delete)
+│   ├── middleware/       # Multer file upload config
+│   └── routes/           # API Endpoints
 
 ##🚀 Installation & Local Setup
 1. Clone the repository
